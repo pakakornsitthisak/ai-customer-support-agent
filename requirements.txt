@@ -1,0 +1,7 @@
+ollama
+python-dotenv
+ddgs
+pytest
+uvicorn
+fastapi
+sentence-transformers

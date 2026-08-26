@@ -1,0 +1,63 @@
+[
+  {
+    "question": "What is 125 * 48?",
+    "expected_tool": "calculate",
+    "expected_answer": "6000"
+  },
+  {
+    "question": "Calculate 17.5 * 24.",
+    "expected_tool": "calculate",
+    "expected_answer": "420"
+  },
+  {
+    "question": "What is 1000 / 8?",
+    "expected_tool": "calculate",
+    "expected_answer": "125"
+  },
+  {
+    "question": "What time is it?",
+    "expected_tool": "get_current_time",
+    "expected_answer": null
+  },
+  {
+    "question": "Can you tell me the current time?",
+    "expected_tool": "get_current_time",
+    "expected_answer": null
+  },
+  {
+    "question": "What is your refund policy?",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer": null
+  },
+  {
+    "question": "How long does shipping take?",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer": null
+  },
+  {
+    "question": "What happens if I forget my password?",
+    "expected_tool": "search_knowledge_base",
+    "expected_answer": null
+  },
+  {
+    "type": "conversation",
+    "session_id": "customer-support-memory-evaluation",
+    "messages": [
+      {
+        "question": "What is your refund policy?",
+        "expected_tool": "search_knowledge_base",
+        "expected_answer": null
+      },
+      {
+        "question": "How long do I have to request it?",
+        "expected_tool": "search_knowledge_base",
+        "expected_answer": null
+      },
+      {
+        "question": "Does that apply to my order?",
+        "expected_tool": "search_knowledge_base",
+        "expected_answer": null
+      }
+    ]
+  }
+]
