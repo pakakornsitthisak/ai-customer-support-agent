@@ -7,6 +7,8 @@ The project demonstrates how to build an LLM-powered application that can unders
 
 ---
 
+![AI Customer Support Agent](docs/screenshots/picture1.png)
+
 ## Features
 
 - LLM-powered customer support agent
