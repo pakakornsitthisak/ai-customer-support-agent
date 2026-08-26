@@ -1,4 +1,3 @@
-````markdown
 # AI Customer Support Agent
 
 A full-stack AI customer support agent built with **Python, FastAPI, Ollama, RAG, tool calling, conversation memory, Next.js, TypeScript, Docker, and Docker Compose**.
